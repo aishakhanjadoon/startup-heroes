@@ -750,6 +750,82 @@ h1, h2, h3, h4, h5, h6 {
     .nav-links .cta-button:hover {
         background: var(--gradient-2);
     }
+
+    .countdown-container {
+        display: flex;
+        justify-content: center;
+        gap: 0.75rem;
+        margin: 1rem 0;
+        flex-wrap: nowrap;
+    }
+
+    .countdown-box {
+        min-width: 70px;
+        width: 70px;
+        height: 70px;
+        padding: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .countdown-number {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1;
+        margin: 0;
+        color: var(--secondary);
+    }
+
+    .countdown-label {
+        font-size: 0.75rem;
+        margin-top: 0.25rem;
+        color: var(--text-secondary);
+    }
+
+    .hero-cta {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-button {
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
+        min-width: 160px;
+        text-align: center;
+        border-radius: 50px;
+        background: var(--gradient-1);
+        color: white;
+        font-weight: 600;
+        box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown-box {
+        min-width: 65px;
+        width: 65px;
+        height: 65px;
+        padding: 0.5rem;
+    }
+
+    .countdown-number {
+        font-size: 1.25rem;
+    }
+
+    .countdown-label {
+        font-size: 0.7rem;
+    }
+
+    .cta-button {
+        padding: 0.75rem 1.75rem;
+        min-width: 140px;
+    }
 }
 
 /* Add to your existing CSS */
