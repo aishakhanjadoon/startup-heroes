@@ -1,0 +1,35 @@
+<svg width="500" height="300" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Elements -->
+    <path d="M0 150C0 67.1573 67.1573 0 150 0C232.843 0 300 67.1573 300 150C300 232.843 232.843 300 150 300C67.1573 300 0 232.843 0 150Z" fill="#DBEAFE" opacity="0.2"/>
+    <path d="M200 100C200 44.7715 244.772 0 300 0C355.228 0 400 44.7715 400 100C400 155.228 355.228 200 300 200C244.772 200 200 155.228 200 100Z" fill="#93C5FD" opacity="0.1"/>
+    
+    <!-- Team Illustration -->
+    <g transform="translate(100, 50)">
+        <!-- Person 1 -->
+        <g transform="translate(0, 0)">
+            <circle cx="30" cy="30" r="30" fill="#3B82F6"/>
+            <rect x="15" y="20" width="30" height="15" rx="7.5" fill="white"/>
+        </g>
+        
+        <!-- Person 2 -->
+        <g transform="translate(100, 0)">
+            <circle cx="30" cy="30" r="30" fill="#60A5FA"/>
+            <rect x="15" y="20" width="30" height="15" rx="7.5" fill="white"/>
+        </g>
+        
+        <!-- Person 3 -->
+        <g transform="translate(200, 0)">
+            <circle cx="30" cy="30" r="30" fill="#93C5FD"/>
+            <rect x="15" y="20" width="30" height="15" rx="7.5" fill="white"/>
+        </g>
+        
+        <!-- Connecting Lines -->
+        <path d="M60 30H100" stroke="#3B82F6" stroke-width="2"/>
+        <path d="M160 30H200" stroke="#3B82F6" stroke-width="2"/>
+    </g>
+    
+    <!-- Floating Elements -->
+    <circle cx="50" cy="250" r="10" fill="#60A5FA" opacity="0.4"/>
+    <circle cx="450" cy="50" r="15" fill="#93C5FD" opacity="0.6"/>
+    <rect x="400" y="250" width="20" height="20" rx="5" fill="#BFDBFE" opacity="0.5"/>
+</svg> 
